@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+}
+.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #bdc3c7;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: url(http://htmlacademy.ru/assets/course14/social.png) no-repeat;
+    margin: 0 10px;
+}
+
+.social-vk {
+    background-color: #6d8fb3;
+    background-position: 0 0;
+}
