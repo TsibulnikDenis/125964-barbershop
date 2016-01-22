@@ -1,95 +1,145 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Барбершоп</title>
-  </head>
-  <body>
-
-    <header>
-      <div class="main-menu">
-          <ul>
-            <li>ИНФОРМАЦИЯ</li>
-            <li>НОВОСТИ
-            <li>ПРАЙС-ЛИСТ</li>
-            <li>МАГАЗИН</li>
-            <li>КОНТАКТЫ</li>
-          </ul>
-        </div>
-      <a href="#" class="user-account">Вход</a>
-      </header>
-      
-      <div class="main-container">
-          <h1>СРЕДСТВА ДЛЯ УХОДА</h1>
-          <ul class="breadcrumbs">
-              <li>ГЛАВНАЯ</li>
-              <li>МАГАЗИН</li>
-              <li class="breadcrumbs-current">СРЕДСТВА</li>       
-          </ul>
-          <form class="filter">
-              <fieldset class="filter-producers">              
-               <p>ПРОИЗВОДИТЕЛИ:</p>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML Academy: Барбершоп</title>
+    </head>
+    <body>
+        <header>
+            <div class="main-menu">
+                <ul>
+                    <li>ИНФОРМАЦИЯ</li>
+                    <li>НОВОСТИ</li>
+                    <li>ПРАЙС-ЛИСТ</li>
+                    <li>МАГАЗИН</li>
+                    <li>КОНТАКТЫ</li>
+                </ul>
+            </div>
+            <a href="#" class="user-account">Вход</a>
+        </header>
+        <div class="main-container">
+            <h1>СРЕДСТВА ДЛЯ УХОДА</h1>
+            <ul class="breadcrumbs">
+                <li>ГЛАВНАЯ</li>
+                <li>МАГАЗИН</li>
+                <li class="breadcrumbs-current">СРЕДСТВА</li>       
+            </ul>
+            <form class="filter">
+                <fieldset class="filter-producers">              
+                <p>ПРОИЗВОДИТЕЛИ:</p>
                 <label>  
-                 <input type="checkbox" name="producers[]" value="BAXTER OF CALIFORNIA" checked>
-                  BAXTER OF CALIFORNIA
+                    <input type="checkbox" name="producers[]" value="BAXTER OF CALIFORNIA" checked>
+                    BAXTER OF CALIFORNIA
                 </label>
                 <label>  
-                 <input type="checkbox" name="producers[]" value="MR NATTY">
-                  MR NATTY
+                    <input type="checkbox" name="producers[]" value="MR NATTY">
+                    MR NATTY
                 </label>
                 <label> 
-                 <input type="checkbox" name="producers[]" value="SUAVECITO" checked>
-                  SUAVECITO
+                    <input type="checkbox" name="producers[]" value="SUAVECITO" checked>
+                    SUAVECITO
                 </label>
                 <label>   
-                 <input type="checkbox" name="producers[]" value="MALIN+GOETZ">
-                 MALIN+GOETZ
+                    <input type="checkbox" name="producers[]" value="MALIN+GOETZ">
+                    MALIN+GOETZ
                 </label>
                 <label>  
-                 <input type="checkbox" name="producers[]" value="MURRAY`S">
-                 MURRAY`S
+                    <input type="checkbox" name="producers[]" value="MURRAY`S">
+                    MURRAY`S
                 </label>
                 <label>
-                 <input type="checkbox" name="producers[]" value="AMERICAN CREW" checked>
-                 AMERICAN CREW
+                    <input type="checkbox" name="producers[]" value="AMERICAN CREW" checked>
+                    AMERICAN CREW
                 </label>
-              </fieldset>
-              <fieldset class="filter-product">
-                  <p>ГРУППЫ ТОВАРОВ:</p>
-                  <label>
-                      <input type="radio" name="product[]" value="p">
-                      БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ
-                  </label>
-                  <label>
-                      <input type="radio" name="product[]" value="p">
-                      СРЕДСТВА ДЛЯ УХОДА
-                  </label>
-                  <label>
-                      <input type="radio" name="product[]" value="p">
-                      АКССЕСУАРЫ
-                  </label>
-                  
-                
-                  
-              
-                  
-                  
-                  
-                  
-              <button class="filter-btn"
-          
-              
-              
-              </fieldset>
-              
-          
-          </form>
-      
-      
-      
-      
-      
-      
-      </div>
- </body>
+                </fieldset>
+                <fieldset class="filter-product">
+                    <p>ГРУППЫ ТОВАРОВ:</p>
+                    <label>
+                        <input type="radio" name="product[]" value="БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ" checked>
+                        БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ
+                    </label>
+                    <label>
+                        <input type="radio" name="product[]" value="СРЕДСТВА ДЛЯ УХОДА">
+                        СРЕДСТВА ДЛЯ УХОДА
+                    </label>
+                    <label>
+                        <input type="radio" name="product[]" value="АКССЕСУАРЫ">
+                        АКССЕСУАРЫ
+                    </label>
+                </fieldset>
+                <button class="filter-btn" type="submit">ПОКАЗАТЬ</button>
+            </form>
+            <div class="content">
+                <div class="item">
+                    <div class="item-01">
+                        <img class="item-img" src="http://placehold.it/150x100" alt="Набор для путешествий BAXTER OF CALIFORNIA">
+                        <div class="item-description">Набор для путешествий "BAXTER OF CALIFORNIA"</div>
+                        <div class="item-price"></div>
+                        <p>2 900 РУБ.</p>
+                        <a class="item-btn" href="/item-01.html">КУПИТЬ</a>
+                    </div>
+                    <div class="item-02">
+                        <img class="item-img" src="http://placehold.it/150x100" alt="Увлажняющий кондиционер BAXTER OF CALIFORNIA">
+                        <div class="item-description">Увлажняющий кондиционер "BAXTER OF CALIFORNIA"</div>
+                        <div class="item-price"></div>
+                        <p>750 РУБ.</p>
+                        <a class="item-btn" href="/item-02.html">КУПИТЬ</a>
+                    </div>
+                    <div class="item-03">
+                        <img class="item-img" src="http://placehold.it/150x100" alt="Гель для волос SUAVECITO">
+                        <div class="item-description">Гель для волос "SUAVECITO"</div>
+                        <div class="item-price"></div>
+                        <p>290 РУБ.</p>
+                        <a class="item-btn" href="/item-03.html">КУПИТЬ</a>
+                    </div>
+                    <div class="item-04">
+                        <img class="item-img" src="http://placehold.it/150x100" alt="Глинка для укладки волос AMERICAN CREW">
+                        <div class="item-description">Глинка для укладки волос "AMERICAN CREW"</div>
+                        <div class="item-price"></div>
+                        <p>500 РУБ.</p>
+                        <a class="item-btn" href="/item-04.html">КУПИТЬ</a>
+                    </div>
+                    <div class="item-05">
+                        <img class="item-img" src="http://placehold.it/150x100" alt="Гель для волос AMERICAN CREW">
+                        <div class="item-description">Гель для волос "AMERICAN CREW"</div>
+                        <div class="item-price"></div>
+                        <p>300 РУБ.</p>
+                        <a class="item-btn" href="/item-05.html">КУПИТЬ</a>
+                    </div>
+                    <div class="item-06">
+                        <img class="item-img" src="http://placehold.it/150x100" alt="Набор для бритья BAXTER OF CALIFORNIA">
+                        <div class="item-description">Набор для бритья "BAXTER OF CALIFORNIA"</div>
+                        <div class="item-price"></div>
+                        <p>3 900 РУБ.</p>
+                        <a class="item-btn" href="/item-06.html">КУПИТЬ</a>
+                    </div>
+                </div>
+                <div class="paginator">
+                    <a href="#1">1</a>
+                    <a href="#2">2</a>
+                    <a href="#3">3</a>
+                    <a href="#4">4</a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="address">
+                <p>БАРБЕРШОП "БОРОДИНСКИЙ"<br>
+                АДРЕС:Г.САНКТ-ПЕТЕРБУРГ,УЛ.Б.КОНЮШЕННАЯ,Д.19/8<br>
+                </p>
+                <a href="/map.html">КАК НАС НАЙТИ?</a>
+                <p>ТЕЛЕФОН:+7(495)666-02-66</p>
+            </div>
+            <div class="social">
+                <p>ДАВАЙТЕ ДРУЖИТЬ!</p>
+                <a class="social-vk" href="#"></a>
+                <a class="social-fb" href="#"></a>
+                <a class="social-inst" href="#"></a>
+            </div>
+            <div class="copyright">
+            <p>РАЗРАБОТАНО:</p>
+            <a class="copyright-url" href="http://htmlacademy.ru">HTMLACADEMY.RU</a>
+            </div>
+        </footer>
+    </body>
 </html>
